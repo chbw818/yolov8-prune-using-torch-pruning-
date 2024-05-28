@@ -10,4 +10,4 @@ mydevice=torch.device('cuda:0')<br>
 self.proj=self.proj.to(mydevice)
 ```
 you can simply run prune_v8.py by `python prune_v8.py` after modifying the correct model path and dataset path in `line 387` and `line 285`<br>
-You could use `detect_prune.py` to test the performance of the pruned model
+You could use `python detect_prune.py` to test the performance of the pruned model
